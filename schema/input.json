@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "title": "Input Schema",
+  "type": "array",
+  "items": {
+    "type": "object",
+    "properties": {
+      "hx_booking_ref": {
+        "type": "string"
+      },
+      "partner_booking_ref": {
+        "type": "string"
+      },
+      "arrival": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "depart": {
+        "type": "string",
+        "format": "date-time"
+      },
+      "price": {
+        "type": "integer",
+        "multipleOf": 1,
+        "minimum": 0
+      }
+    },
+    "required": [
+      "hx_booking_ref",
+      "partner_booking_ref",
+      "depart",
+      "arrival",
+      "price"
+    ]
+  },
+  "minItems": 1
+}

@@ -1,0 +1,28 @@
+{
+  "name": "hx-api-flight-update",
+  "version": "1.0.0",
+  "description": "Example usage of the HX partner API flight update endpoint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon src/server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hx-markterry/node-hx-api-flight-update.git"
+  },
+  "author": "Mark Terry <mark.terry@holidayextras.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hx-markterry/node-hx-api-flight-update/issues"
+  },
+  "homepage": "https://github.com/hx-markterry/node-hx-api-flight-update#readme",
+  "dependencies": {
+    "ajv": "^5.2.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.11.0"
+  }
+}
