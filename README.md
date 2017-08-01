@@ -6,6 +6,12 @@ Example usage of the HX partner API flight update endpoint
 * Node.js 6 <https://nodejs.org/en/download/>
 * Git CLI <https://git-scm.com/downloads>
 
+## Live example
+
+This example is running on heroku at the following location:
+
+<https://node-hx-api-flight-update.herokuapp.com/flightUpdate>
+
 ## Install
 
     git clone https://github.com/hx-markterry/node-hx-api-flight-update.git
