@@ -20,7 +20,7 @@ This example is running on heroku at the following location:
 
 ## Run
 
-    npm test
+    npm start
 
 ## Test
 
