@@ -1,8 +1,15 @@
 # node-hx-api-flight-update
 Example usage of the HX partner API flight update endpoint
 
+## Requirements
+
+* Node.js 6 <https://nodejs.org/en/download/>
+* Git CLI <https://git-scm.com/downloads>
+
 ## Install
 
+    git clone https://github.com/hx-markterry/node-hx-api-flight-update.git
+    cd node-hx-api-flight-update
     npm install
 
 ## Run
