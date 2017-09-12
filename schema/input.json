@@ -11,6 +11,10 @@
       "partner_booking_ref": {
         "type": "string"
       },
+      "email": {
+        "type": "string",
+        "format": "email"
+      },
       "arrival": {
         "type": "string",
         "format": "date-time"
@@ -28,6 +32,7 @@
     "required": [
       "hx_booking_ref",
       "partner_booking_ref",
+      "email",
       "depart",
       "arrival",
       "price"
